@@ -21,6 +21,10 @@ public class Project2 {
         ThreeDimensionalShape cube = new Cube(5.0);
         ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
 
+        //added my fourth shapes test code
+
+        ThreeDimensionalShape tetrahedron = new Tetrahedron(5.0);
+
         // We'll cover this stuff in module 4
         List<ThreeDimensionalShape> shapes = new ArrayList<>();
         shapes.add(sphere);

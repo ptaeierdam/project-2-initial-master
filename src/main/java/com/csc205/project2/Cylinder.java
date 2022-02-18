@@ -59,12 +59,12 @@ public class Cylinder extends Shape {
     @Override
     public String toString() {
 
-        final StringBuilder sb = new StringBuilder("Cylinder {");
-        sb.append("height= ").append(height);
-        sb.append("radius= ").append(radius);
-        sb.append(", surface area= ").append(surfaceArea());
-        sb.append(", volume= ").append(volume());
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder("Cylinder {\n");
+        sb.append(" height= ").append(height);
+        sb.append("\n radius= ").append(radius);
+        sb.append(",\n surface area= ").append(surfaceArea());
+        sb.append(",\n volume= ").append(volume());
+        sb.append("\n}");
         return sb.toString();
 
     }

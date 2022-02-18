@@ -41,11 +41,11 @@ public class Cube extends Shape {
     @Override
     public String toString() {
 
-        final StringBuilder sb = new StringBuilder("Cube {");
-        sb.append("width= ").append(width);
-        sb.append(", surface area= ").append(surfaceArea());
-        sb.append(", volume= ").append(volume());
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder("Cube {\n");
+        sb.append(" width= ").append(width);
+        sb.append(",\n surface area= ").append(surfaceArea());
+        sb.append(",\n volume= ").append(volume());
+        sb.append("\n}");
         return sb.toString();
 
     }
