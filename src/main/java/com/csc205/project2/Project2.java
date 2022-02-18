@@ -31,6 +31,10 @@ public class Project2 {
         shapes.add(cube);
         shapes.add(cylinder);
 
+        //added my fourth shapes test code
+
+        shapes.add(tetrahedron);
+
         shapes.forEach(System.out::println);
 
         /*
